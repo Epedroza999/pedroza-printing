@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedroza Printing — Capabilities</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: letter;
+      margin: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #111;
+      width: 8.5in;
+      height: 11in;
+      padding: 0.6in 0.65in;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.5;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 0.4in;
+      border-bottom: 2px solid #111;
+      margin-bottom: 0.35in;
+    }
+
+    .header h1 {
+      font-size: 20pt;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .header .tagline {
+      font-size: 9pt;
+      color: #666;
+    }
+
+    .section-title {
+      font-size: 7.5pt;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #888;
+      margin-bottom: 0.12in;
+    }
+
+    .value-prop {
+      margin-bottom: 0.3in;
+    }
+
+    .value-prop p {
+      font-size: 10.5pt;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .capabilities {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0.25in;
+      margin-bottom: 0.3in;
+    }
+
+    .cap-card {
+      padding: 0.15in 0;
+    }
+
+    .cap-card h3 {
+      font-size: 10pt;
+      font-weight: 600;
+      margin-bottom: 0.05in;
+    }
+
+    .cap-card p {
+      font-size: 8.5pt;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .materials {
+      margin-bottom: 0.3in;
+    }
+
+    .material-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.1in;
+    }
+
+    .mat-pill {
+      padding: 0.04in 0.15in;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      font-size: 8.5pt;
+      color: #333;
+    }
+
+    .mat-pill .use {
+      color: #888;
+      font-size: 7.5pt;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.25in;
+      margin-bottom: 0.3in;
+      flex-grow: 1;
+    }
+
+    .project {
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+      padding: 0.18in;
+    }
+
+    .project h3 {
+      font-size: 9.5pt;
+      font-weight: 600;
+      margin-bottom: 0.06in;
+    }
+
+    .project p {
+      font-size: 8pt;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .project .tag {
+      display: inline-block;
+      margin-top: 0.08in;
+      font-size: 7.5pt;
+      color: #888;
+      background: #f5f5f5;
+      padding: 0.02in 0.08in;
+      border-radius: 2px;
+    }
+
+    .footer {
+      border-top: 1px solid #e5e5e5;
+      padding-top: 0.2in;
+      display: flex;
+      justify-content: space-between;
+      font-size: 8.5pt;
+      color: #555;
+    }
+
+    .footer strong {
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Pedroza Printing</h1>
+    <span class="tagline">Custom Electronic Enclosures &middot; Central New Jersey</span>
+  </div>
+
+  <div class="value-prop">
+    <p>Engineering-grade custom enclosures manufactured with additive technology. From rough concept to finished housing — I handle CAD design, material selection, DFM, and production. Short runs from 1 to 500 units with no tooling costs, no MOQ, and fast turnaround.</p>
+  </div>
+
+  <div class="section-title">Capabilities</div>
+  <div class="capabilities">
+    <div class="cap-card">
+      <h3>Design</h3>
+      <p>Full CAD in Fusion 360. DFM review. Bring a concept, napkin sketch, or PCB specs.</p>
+    </div>
+    <div class="cap-card">
+      <h3>Manufacturing</h3>
+      <p>Multi-printer Bambu Lab farm. Engineering filaments. Tight tolerances and functional parts.</p>
+    </div>
+    <div class="cap-card">
+      <h3>Delivery</h3>
+      <p>1-500 units. Fast iteration. Design changes don't cost a new mold.</p>
+    </div>
+  </div>
+
+  <div class="section-title">Materials</div>
+  <div class="materials">
+    <div class="material-list">
+      <span class="mat-pill">ABS <span class="use">— indoor, smoothable</span></span>
+      <span class="mat-pill">ASA <span class="use">— outdoor, UV-stable</span></span>
+      <span class="mat-pill">PETG <span class="use">— general purpose</span></span>
+      <span class="mat-pill">PC <span class="use">— high-impact, high-temp</span></span>
+      <span class="mat-pill">PA-CF <span class="use">— stiff, lightweight</span></span>
+      <span class="mat-pill">PLA <span class="use">— prototyping</span></span>
+    </div>
+  </div>
+
+  <div class="section-title">Sample Projects</div>
+  <div class="projects">
+    <div class="project">
+      <h3>POS-Style Monitor Housing</h3>
+      <p>Custom enclosure for a bespoke point-of-sale terminal. Motherboard mounting, precision screen cutout, VESA mount, and custom I/O connector panel for a finished product appearance.</p>
+      <span class="tag">ABS</span>
+    </div>
+    <div class="project">
+      <h3>PLC Machine Add-On Enclosure</h3>
+      <p>Retrofit enclosure housing a PLC controller as an upgrade for existing production equipment. Internal DIN rail, light tower mount, side-mount brackets, and cable routing provisions.</p>
+      <span class="tag">ABS</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span><strong>Email:</strong> you@pedrozaprinting.com</span>
+    <span><strong>Location:</strong> Central New Jersey</span>
+    <span><strong>Web:</strong> pedrozaprinting.com</span>
+  </div>
+
+</body>
+</html>
