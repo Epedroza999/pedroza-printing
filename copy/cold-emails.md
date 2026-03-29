@@ -21,7 +21,7 @@ Worth a quick call?
 Best,
 Esteban Pedroza
 Pedroza Printing
-[WEBSITE URL]
+https://epedroza999.github.io/pedroza-printing
 
 ---
 
@@ -41,7 +41,7 @@ Happy to quote a current project if you have one — or just connect for when th
 
 Esteban Pedroza
 Pedroza Printing
-[WEBSITE URL]
+https://epedroza999.github.io/pedroza-printing
 
 ---
 
@@ -61,7 +61,7 @@ Based in central NJ — local pickup available.
 
 Esteban Pedroza
 Pedroza Printing
-[WEBSITE URL]
+https://epedroza999.github.io/pedroza-printing
 
 ---
 
